@@ -1,0 +1,21 @@
+
+nav {
+    color: black;
+    background-color: transparent;
+}
+
+p {
+    color: aquamarine;
+}
+
+.carousel {
+/* width: 50%; */
+margin-top: 1%;
+}
+
+
+
+.carousel .carousel-item {
+    height: 600px;
+    width: 400px;
+}

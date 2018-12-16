@@ -1,13 +1,103 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hope Lutheran</title>
+    <!-- Links jquery CDN -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Adds style sheet -->
+    <link rel="stylesheet" href="assets/style/style.css">
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
 </head>
 
-<p>Hello! welcome to the beginning of the Hope Luthern Church Website!</p>
-
 <body>
+    
+
+    <!-- adds nav bar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="color: black">Welcome</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#" style="color: black">Home</a>
+                </li>
+                <li>
+                    <a href="#" style="color: black">placeholder</a>
+                </li>
+                <li>
+                    <a href="#" style="color: black">placeholder</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- adds carousel of photos on home page -->
+<container>
+    <div class="carousel">
+        <a class="carousel-item" href="#one!">
+            <img src="assets/images/main.jpg" >
+        </a>
+        <a class="carousel-item" href="#two!">
+            <img src="assets/images/bigcross.jpg">
+        </a>
+        <a class="carousel-item" href="#three!">
+            <img src="assets/images/altar.jpg">
+        </a>
+        <a class="carousel-item" href="#four!">
+            <img src="assets/images/closeupaltar.jpg">
+        </a>
+        <a class="carousel-item" href="#five!">
+            <img src="assets/images/hymnbook.jpg">
+        </a>
+        <a class="carousel-item" href="#five!">
+            <img src="assets/images/grandpa.jpg">
+        </a>
+        <a class="carousel-item" href="#five!">
+            <img src="assets/images/people1.jpg">
+        </a>
+        <a class="carousel-item" href="#five!">
+            <img src="assets/images/people2.jpg">
+        </a>
+        <a class="carousel-item" href="#five!">
+            <img src="assets/images/people3.jpg">
+        </a>
+        <a class="carousel-item" href="#five!">
+            <img src="assets/images/people4.jpg">
+        </a>
+    </div>
+</container>
+
+
+<script>
+
+    //loads carousel on page ready
+    $(document).ready(function () {
+        $('.carousel').carousel();
+
+        // auto-play
+        setInterval(function(){
+            $('.carousel').carousel('next');
+        }, 4000);
+    });
+  
+    
+
+
+
+
+
+
+</script>
 
 </body>
 </html>
