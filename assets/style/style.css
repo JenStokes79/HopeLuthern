@@ -41,6 +41,30 @@ div.container {
 }
 
 .fb {
-  height: 75px;
-  width: 75px;
+  height: 65px;
+  width: 65px;
+}
+
+.service1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.name {
+  font-weight: bold;
+}
+
+#hopeluthpara {
+  margin-top: 35px;
+}
+
+.footer {
+  text-align: center;
+  margin: 25px;
+}
+
+.float {
+  float: left;
+  flex-wrap: inherit;
+  margin-right: 15px;
 }
