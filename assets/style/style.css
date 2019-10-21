@@ -81,8 +81,8 @@ div.container {
 
 @media only screen and (max-device-width: 480px) {
   .parallax1 {
-    height: 100%;
-    width: 100%
+    height: 200px;
+    width: 200px;
   }
 
 }
