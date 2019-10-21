@@ -70,3 +70,19 @@ div.container {
 }
 
 
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+/* @media only screen and (max-device-width: 1366px) {
+  .parallax1 {
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+  }
+} */
+
+@media only screen and (max-device-width: 480px) {
+  .parallax1 {
+    height: 100%;
+    width: 100%
+  }
+
+}
