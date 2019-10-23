@@ -79,10 +79,43 @@ div.container {
   }
 } */
 
+@media only screen and (max-device-width: 768px) {
+  .parallax1 {
+    background-image: url("assets/images/openbook.jpg");
+              
+        
+    /* Set a specific height */
+    height: 100%;
+    width: auto;
+
+    overflow: auto;
+
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+  }
+
+}
 @media only screen and (max-device-width: 480px) {
   .parallax1 {
-    height: 200px;
-    width: 200px;
+    background-image: url("assets/images/openbook.jpg");
+              
+        
+    /* Set a specific height */
+    height: 100%;
+    width: auto;
+
+    overflow: auto;
+
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
   }
 
 }
