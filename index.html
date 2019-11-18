@@ -40,7 +40,7 @@
         
                 /* Set a specific height */
                 height: 500px;
-                width: auto;
+                max-width: auto;
           
                 overflow: auto;
         
@@ -56,7 +56,8 @@
                 background-image: url("assets/images/reading.jpg");
         
                 /* Set a specific height */
-                min-height: 500px;
+                height: 500px;
+                max-width: auto;
                  overflow: auto;
                 /* Create the parallax scrolling effect */
                 background-attachment: fixed;
@@ -65,20 +66,7 @@
                 background-size: cover;
                 opacity: .9;
             }
-             .parallax3 {
-                /* The image used */
-                background-image: url("assets/images/multicandles.jpg");
-        
-                /* Set a specific height */
-                min-height: 500px;
-                 overflow: auto;
-                /* Create the parallax scrolling effect */
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                opacity: .9;
-            }
+            
            
         </style>
     </head>
@@ -114,7 +102,7 @@
 <div class="container">
 <div class="row">
     <div class="col-md-4">
-        <img class="couple" src="assets/images/couple.jpg" alt="">
+        <img src="assets/images/couple.jpg" alt="" class="couple">
     </div>
     
 

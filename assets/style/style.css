@@ -8,13 +8,27 @@ h3, p {
     text-align: left;
 }
 /* images on home page for people */
-img {
+.responsive {
+    max-width: 100%;
     height: auto;
    
 }
 /* cards for pics */
 div.polaroid {
-  width: 500px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: 50px;
+  float: left;
+}
+
+div.polaroid-1{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
@@ -70,7 +84,7 @@ div.container {
 }
 
 .couple {
-  width: 300px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -106,19 +120,11 @@ div.container {
 @media only screen and (max-device-width: 480px) {
   .parallax1 {
     background-image: url("assets/images/openbook.jpg");
+    height: 250px;
+    width: 250px;
               
         
-    /* Set a specific height */
-    height: 100px;
-    width: auto;
 
-    overflow: auto;
-
-    /* Create the parallax scrolling effect */
-    /* background-attachment: fixed; */
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
     opacity: .9;
   }
 
