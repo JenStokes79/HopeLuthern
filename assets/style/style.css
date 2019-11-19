@@ -1,3 +1,6 @@
+
+
+
 .body {
     background-color: whitesmoke
 }
@@ -97,15 +100,4 @@ div.container {
   }
 } */
 
-
-@media only screen and (max-device-width: 560px) {
-  .parallax1 {
-    background-image: none;
-  }
-  .parallax2 {
-    background-image: none;
-  }
-  
-
-}
 
